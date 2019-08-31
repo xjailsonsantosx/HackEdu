@@ -4462,7 +4462,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav {  
-  background-color: #112236;
+  background-color: #43627f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6996,7 +6996,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #43627f !important;
 }
 
 .bg-transparent {
@@ -10686,9 +10686,9 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #9cabbe;
+  background-color: #112236;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4e73df), to(#224abe));
-  background-image: linear-gradient(180deg, #43627f 10%, #224abe 100%);
+  background-image: linear-gradient(180deg, #112236 10%, #224abe 100%);
   background-size: cover;
 }
 
@@ -10810,7 +10810,7 @@ a:focus {
 }
 
 .text-gray-600 {
-  color: #858796 !important;
+  color: #fff !important;
 }
 
 .text-gray-700 {
