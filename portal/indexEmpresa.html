@@ -49,7 +49,21 @@
 
       <!-- Divider -->
       <hr class="sidebar-divider">
-
+        <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <span>Professores</span>
+          </a>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Opções personalizadas</h6>
+              <a class="collapse-item" href="alertas.html">Notificações</a>
+              <a class="collapse-item" href="cards.html">Cards</a>
+            </div>
+          </div>
+        </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
       <!-- Heading -->
       <div class="sidebar-heading">
         Customizações
@@ -112,6 +126,18 @@
             <i class="fa fa-bars"></i>
           </button>
 
+           <!-- Topbar Search -->
+           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light border-0 small" placeholder="Busque por..." aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
@@ -123,7 +149,7 @@
               <!-- Dropdown - Messages -->
               <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
                 <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
+                  <div class="input-porgroup">
                     <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                       <button class="btn btn-primary" type="button">
@@ -134,6 +160,9 @@
                 </form>
               </div>
             </li>
+
+            
+
 
             <!-- Nav Item - Alerts -->
             <li class="nav-item dropdown no-arrow mx-1">
@@ -280,12 +309,16 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Estatisticas sobre os candidatos</h1>        
+            <h1 class="h3 mb-0 text-gray-800">Estatisticas sobre os candidatos</h1>
+              
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-fw fa-table fa-sm text-white-50"></i> Crie um curso</a>
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-fw fa-table fa-sm text-white-50"></i> Gerar relatórios</a>      
+           
           </div>
 
           <!-- Content Row -->
           <div class="row">
-
+ 
             <!-- Banco de talentos -->
             <div class="col-xl-12 col-md-6 mb-4" >
               <div class="card border-left-warning shadow h-100 py-2">
@@ -344,6 +377,13 @@
                     </div>
                   </div>
                 </div>
+             <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                
+                  </div>
+                </div>    
+            
                 <!-- Card Body -->
                 <div class="card-body">
                   <div class="chart-pie pt-4 pb-2">
@@ -362,7 +402,19 @@
                     </span>
                   </div>
                 </div>
-              </div>
+              </div>  
+              
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Sobre a cultura da empresa</h6>
+                </div>
+                <div class="card-body">
+                  <p>Referência em tecnologia, educação, saúde e administração integrada. Assim podemos definir a ESIG, empresa brasileira especializada na construção e implantação de sistemas de gestão.</p>
+                  <p class="mb-0"> A organização nasceu em 2011 e desde então, tem atuado para contribuir com o desenvolvimento de diversas organizações públicas e privadas em 21 estados do país.</p> 
+                </div>
+              </div> 
             </div>
           </div>
           
